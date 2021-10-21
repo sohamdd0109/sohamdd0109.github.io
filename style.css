@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+body {
+   
+    background-image: background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,219,1) 35%, rgba(0,212,255,1) 100%),url(background.png); 
+    background-size: cover;
+    
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 1000px 9960px, cover;
+    background-position: center;
+    }
+
+    /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 50px green; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+  }
+    .heading {
+        font-family: 'Patrick Hand', cursive;
+        text-align: center;
+    }
+
+    .heading:hover {
+        font-family: 'Acme', sans-serif;
+    }
+
+    .about1 {
+        font-family: 'Architects Daughter', cursive;
+        text-align: center;
+    }
+
+    .about1:hover {
+        font-family: 'Oswald', sans-serif;
+        color:white;
+    }
+
+    .about2 {
+        color:white;
+        font-family: 'IM Fell English SC', serif;
+        text-align: center;
+    }
+
+    .about2:hover {
+        font-family: 'Andada Pro', serif;
+    }
+
+    .about3 {
+        font-size:20px;
+	    padding:16px 31px;
+        font-family: 'IM Fell English SC', serif;
+        text-align: center;
+    }
+
+    .about3:hover {
+        font-family: 'Andada Pro', serif;
+    }
+
+    .social {
+        z-index:1;
+        position: fixed;
+        bottom: 560px;
+        right: 1200px;
+        box-shadow: 3px 5px 44px 0px #de05ff;
+        background:linear-gradient(to bottom, #f70000 5%, #000000 100%);
+        background-color:#f70000;
+        border-radius:28px;
+        border:7px solid #05f0c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Georgia;
+        font-size:28px;
+        padding:16px 33px;
+        text-decoration:none;
+        text-shadow:0px 4px 13px #00f5d4;
+    }
+    .social:hover {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+    }
+    .social:active {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+       
+    }
+
+    .social2 {
+        position: fixed;
+        bottom: 460px;
+        right: 1200px;
+        box-shadow: 3px 5px 44px 0px #de05ff;
+        background:linear-gradient(to bottom, #f70000 5%, #000000 100%);
+        background-color:#f70000;
+        border-radius:28px;
+        border:7px solid #05f0c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Georgia;
+        font-size:28px;
+        padding:16px 33px;
+        text-decoration:none;
+        text-shadow:0px 4px 13px #00f5d4;
+    }
+    .social2:hover {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+    }
+    .social2:active {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+    }
+
+    .social3 {
+        position: fixed;
+        bottom: 360px;
+        right: 1200px;
+        box-shadow: 3px 5px 44px 0px #de05ff;
+        background:linear-gradient(to bottom, #f70000 5%, #000000 100%);
+        background-color:#f70000;
+        border-radius:28px;
+        border:7px solid #05f0c9;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Georgia;
+        font-size:28px;
+        padding:16px 33px;
+        text-decoration:none;
+        text-shadow:0px 4px 13px #00f5d4;
+    }
+    .social3:hover {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+    }
+    .social3:active {
+        background:linear-gradient(to bottom, #000000 5%, #f70000 100%);
+        background-color:#000000;
+    }
+
+    .oplink {
+        align-items: center;
+        box-shadow: 1px 3px 50px 0px #5c231e;
+        background-color:#ff1500;
+        border-radius:42px;
+        border:6px solid #005eff;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-family:Verdana;
+        font-size:17px;
+        padding:23px 21px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #810e05;
+    }
+    .oplink:hover {
+        background-color:#00ffa2;
+    }
+    .oplink:active {
+        position:relative;
+        top:1px;
+    }
+
+    .socialimage {
+        -webkit-clip-path: circle(23.0% at 49% 50%);
+        clip-path: circle(23.0% at 49% 50%);
+    }
+    
+    .socialimage2 {
+        -webkit-clip-path: circle(50.6% at 51% 51%);
+        clip-path: circle(50.6% at 51% 51%);
+    }
+
+    .socialimage3 {
+        -webkit-clip-path: circle(35.1% at 57% 28%);
+        clip-path: circle(35.1% at 57% 28%);
+    }
