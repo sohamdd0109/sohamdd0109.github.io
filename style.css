@@ -197,3 +197,27 @@ body {
         -webkit-clip-path: circle(35.1% at 57% 28%);
         clip-path: circle(35.1% at 57% 28%);
     }
+
+
+.sl {
+	box-shadow: 1px 5px 16px 0px #c21b1b;
+	background-color:transparent;
+	border-radius:22px;
+	border:4px solid #00ff1a;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 18px;
+	text-decoration:none;
+	text-shadow:-2px 1px 10px #000000;
+}
+.sl:hover {
+	background-color:transparent;
+}
+.sl:active {
+	position:relative;
+	top:1px;
+}
