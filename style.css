@@ -4,6 +4,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+
+/* unvisited link */
+a:link {
+    color: rgba(1, 175, 255, 0.384);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 119, 255);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 0, 149);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 166, 0);
+  }
+
 body {
    
     background-image: background: rgb(255,0,0);
@@ -37,6 +58,11 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: blue; 
   }
+
+
+
+
+  
     .heading {
         font-family: 'Patrick Hand', cursive;
         text-align: center;
