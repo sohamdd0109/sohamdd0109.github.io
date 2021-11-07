@@ -254,3 +254,50 @@ body {
 	position:relative;
 	top:1px;
 }
+
+  /*------------------------- */
+  /*Contact Form */
+
+.contact-title {
+    margin-top: 100px;
+    color:rgb(208, 255, 0);
+    text-transform: uppercase;
+
+}
+
+form {
+    margin-top: 50px;
+
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 5px solid yellowgreen;
+    color:black;
+    font-size: 25px;
+
+}
+
+input {
+    height: 51px;
+    
+}
+
+form .submit {
+    background: yellowgreen;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    height:50px;
+
+}
+
+form .submit:hover {
+    background: transparent;
+    border: solid;
+    cursor: pointer;
+}
