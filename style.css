@@ -8,16 +8,19 @@
 /* unvisited link */
 a:link {
     color: rgb(255, 60, 1);
+    text-decoration: none;
   }
   
   /* visited link */
   a:visited {
     color: rgb(51, 255, 0);
+    text-decoration: none;
   }
   
   /* mouse over link */
   a:hover {
     color: rgb(255, 0, 149);
+    text-decoration: none;
   }
   
   /* selected link */
