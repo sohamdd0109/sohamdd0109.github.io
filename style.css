@@ -9,23 +9,27 @@
 a:link {
     color: rgb(255, 60, 1);
     text-decoration: none;
+    background-color: #ffffff;
   }
   
   /* visited link */
   a:visited {
     color: rgb(51, 255, 0);
     text-decoration: none;
+    background-color: orange;
   }
   
   /* mouse over link */
   a:hover {
     color: rgb(255, 0, 149);
     text-decoration: none;
+    background-color: blue;
   }
   
   /* selected link */
   a:active {
     color: rgb(255, 166, 0);
+    background-color: coral;
   }
 
 body {
