@@ -321,3 +321,11 @@ form .submit:hover {
 }
 
   /*------------------------- */
+
+  .no
+  {
+  position: absolute
+  top: 120px;
+  left: 250px;
+  z-index: 0;
+  }
